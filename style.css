@@ -1,0 +1,305 @@
+@import url('https://fonts.cdnfonts.com/css/modernspace');
+@import url('https://fonts.cdnfonts.com/css/advanced-architecture');/* font-family: 'Advanced Architecture', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/nikeflix');/*font-family: 'Nikeflix', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/junicode-2');/*font-family: 'Junicode', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/solo');/*font-family: 'Solo', sans-serif;*/                                
+* {
+    box-sizing: border-box;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 0px -10px black;
+    width: 100vw;
+    height: 100vh;
+}
+.main-page{
+    background-image: url(images/leopard-animal-roar.jpg);
+    background-size: cover;
+    font-family: 'MODERNSPACE', sans-serif;
+    flex-direction: column;
+    width: 100vw;
+}
+.my-header1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'MODERNSPACE', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    background-color: black;
+    opacity: 0.6;
+    margin: none;
+    border: none;
+}
+.text-card{
+    width: 100vw;
+    height: 85vh;
+    border: none;
+    display: flex;
+    align-items: flex-end;
+}
+.text{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: flex-end;
+    box-shadow: 0px 8px 40px rgb(87, 87, 87);
+}
+.text > p{
+    font-size: 9pt;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 6px 11px 0px 11px;
+    text-align: center;
+}
+.alerts-topic{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 8px 40px rgb(0, 0, 0);
+}
+.my-header2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'MODERNSPACE', sans-serif;
+    font-size: 20pt;
+    color: rgb(238, 230, 230);
+    padding: 60px 0px;
+}
+.my-header2 >h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.topics-1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100vw;
+}
+.topic-1{
+    display: flex;
+    margin-left:  5rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    width: 33%;
+    font-size: 10pt;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.topic-2{
+    display: flex;
+    width: 33%;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+.topic-3{
+    display: flex;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+    width: 33%;
+    font-size: 10pt;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.text-topic{
+    text-align: justify;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.text-topic >h1{
+    font-family: 'Advanced Architecture', sans-serif;
+    font-size: 12pt;
+}
+.topics-2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100vw;
+}
+.topic-4{
+    display: flex;
+    margin-left:  5rem;
+    margin-right: 2rem;
+    width: 33%;
+    font-size: 10pt;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.topic-5{
+    display: flex;
+    margin-right: 2rem;
+    width: 33%;
+    font-size: 10pt;
+    font-weight: 400;
+}
+.topic-6{
+    display: flex;
+    margin-right: 5rem;
+    width: 33%;
+    font-size: 10pt;
+    font-weight: 400;
+}
+.about-us{
+ width: 100vw;
+ height: 80vh;
+ display: flex;
+ background-color: rgb(31, 29, 29);
+ box-shadow: 10px 10px 27px rgb(226, 215, 215);
+}
+.left{
+    width: 50%;
+    justify-content: center;
+    margin-top: 6rem;
+    font-family: 'MODERNSPACE', sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+}
+.left >h1{
+    font-size: 23pt;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.right> img{
+    border-radius: 10px;
+    width: 470px;
+    height: 270px;
+    margin-right: 3rem;
+}
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+    border: none;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.left >p{
+    font-size: 10pt;
+    text-align: center;
+}
+.brasil-vid{
+    width: 100vw;
+    height: 90vh;
+    background: rgb(0,0,0);
+    display: flex;
+    box-shadow: 10px 10px 26px rgb(110, 101, 101);
+}
+.vid{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-field{
+    width: 50%;
+    justify-content: center;
+    margin-top: 9rem;
+    color: white;
+}
+#h1{
+    font-family: 'MODERNSPACE', sans-serif;
+    margin-bottom: 3rem;
+}  
+ul >li{
+    font-size: 12pt;
+    font-weight: 200;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    list-style: none;
+    text-align: justify;
+}
+.ongs{
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: #657e64;
+    color: rgb(0, 0, 0);
+} 
+.ongs >h1{
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'MODERNSPACE', sans-serif;
+    font-size: 23pt;
+    font-weight: 900;
+}
+.ongs >p{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Thailandesa', sans-serif;
+}
+.ong-icon >h2{
+    margin-bottom: 3rem;
+}
+.ong-img{
+    display: flex;
+    justify-content: center;
+}
+.ong-img-1 {
+    margin-right: 2rem;
+}
+.ong-img-1 >a img{
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+}
+.ong-img-2{
+    margin-right: 2rem;
+}
+.ong-img-2 >a img{
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+}
+.ong-img-3 >a img{
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+}
+.contact {
+    background-color: #000000;
+    color: white;
+    height: 70vh;
+
+}
+.contact >h1{
+   text-align: center;
+   padding-top: 3rem;
+   font-family: 'Solo', sans-serif;
+}
+.caixa{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log-nome{
+    margin-right: 3rem;
+}
+.log-nome >label{
+    font-size: 15pt;
+    font-family: 'Nikeflix', sans-serif;
+    margin-right: 1rem;
+}
+.log-email >label{
+    font-size: 15pt;
+    font-family: 'Nikeflix', sans-serif;
+    margin-right: 1rem;
+}
+input{
+    border-radius: 12px;
+    outline: none;
+}
+.caixa >button{
+    margin-left: 2rem;
+    border-radius: 10px;
+}
